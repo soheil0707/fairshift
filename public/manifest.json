@@ -1,0 +1,36 @@
+{
+  "name": "FairShift - Dignity, Fair Pay & Safe Shifts",
+  "short_name": "FairShift",
+  "description": "UN SDG 8 Mobile-First Platform for Worker Rights, 2x Overtime Pay & Safety Voice",
+  "start_url": "/worker",
+  "display": "standalone",
+  "background_color": "#0d2040",
+  "theme_color": "#a21942",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Worker Check-in & Shifts",
+      "url": "/worker",
+      "description": "Quick attendance check-in and payslips"
+    },
+    {
+      "name": "Supervisor Admin Portal",
+      "url": "/admin",
+      "description": "Manage shifts, safety hazards and attrition"
+    }
+  ]
+}
